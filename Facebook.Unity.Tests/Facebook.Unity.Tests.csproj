@@ -120,6 +120,9 @@
     <Folder Include="Mobile\" />
     <Folder Include="Editor\" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NUnit.Mocks" Version="2.6.0.12051" />
+  </ItemGroup>
   <ProjectExtensions>
     <MonoDevelop>
       <Properties>

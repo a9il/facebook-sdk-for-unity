@@ -101,7 +101,7 @@ public class FBLogin {
             Log.w(FB.TAG, "Facebook SDK not initialized. Call init() before calling login()");
             return;
         }
-
+        LoginManager.getInstance().setLoginBehavior(LoginBehavior.WEB_ONLY);
         final UnityMessage unityMessage = new UnityMessage("OnLoginComplete");
         unityMessage.put("key_hash", FB.getKeyHash());
         UnityParams unity_params = UnityParams.parse(params,

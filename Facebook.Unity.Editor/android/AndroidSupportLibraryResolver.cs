@@ -50,7 +50,7 @@ namespace Facebook.Unity.Editor
     {
         static AndroidSupportLibraryResolver()
         {
-            AndroidSupportLibraryResolver.setupDependencies();
+            // AndroidSupportLibraryResolver.setupDependencies();
         }
 
         private static void setupDependencies()

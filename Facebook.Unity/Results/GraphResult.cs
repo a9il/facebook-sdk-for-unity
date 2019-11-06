@@ -25,6 +25,7 @@ namespace Facebook.Unity
 
     internal class GraphResult : ResultBase, IGraphResult
     {
+        [System.Obsolete]
         internal GraphResult(WWW result) : base(new ResultContainer(result.text), result.error, false)
         {
             this.Init(this.RawResult);

@@ -78,6 +78,7 @@ namespace Facebook.Unity
                 .SetCallback(callback);
         }
 
+        [Obsolete]
         internal IEnumerator Start()
         {
             WWW www;
